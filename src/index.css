@@ -11,7 +11,7 @@ code {
 }
 .app {
   text-align: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 70px - 47px);
   margin: 0;
   padding: 0;
   display: flex;
@@ -217,4 +217,12 @@ iframe {
 .table > :not(caption) > * > * {
   padding: 0.5rem 1rem !important;
   width: 15rem;
+}
+
+.display-flex {
+  display: flex;
+
+  max-width: 90% !important;
+  margin: auto;
+  margin-top: 1rem !important;
 }
