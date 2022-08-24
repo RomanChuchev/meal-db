@@ -1,0 +1,39 @@
+.navbar {
+  padding: 2px !important;
+}
+
+.btn-header {
+  border: 1px solid black !important;
+  border-radius: 0.25rem;
+  background: white !important;
+  transition: transform 0.5s ease-in-out !important;
+  background-image: linear-gradient(
+    to right,
+    #03dfdc,
+    #84f9f7,
+    #b7fbff
+  ) !important;
+}
+.btn-header:hover {
+  transform: scale(1.1) !important;
+  background-image: linear-gradient(
+    to left,
+    #03dfdc,
+    #84f9f7,
+    #b7fbff
+  ) !important;
+}
+
+.lead {
+  font-size: 50px !important;
+  font-weight: 600 !important;
+  background-image: linear-gradient(
+    to left,
+    #84ff00,
+    #ffe600,
+    #ff0000
+  ) !important;
+  color: transparent !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+}

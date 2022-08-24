@@ -1,0 +1,13 @@
+.btn-footer {
+  margin: 0.25rem 0.4rem !important;
+  margin-bottom: 1rem;
+  border: 1px solid black !important;
+  padding: 5px 10px !important;
+  border-radius: 50% !important;
+  background: white !important;
+  transition: transform 1s !important;
+}
+.btn-footer:hover {
+  background: azure !important;
+  transform: rotate(360deg) !important;
+}
