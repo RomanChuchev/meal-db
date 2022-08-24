@@ -8,7 +8,7 @@ function Meal(props) {
       style={{ maxWidth: "20rem" }}
     >
       <Link to={`/meal/${idMeal}`} style={{ textDecoration: "none" }}>
-        <div className="card-header card-top">
+        <div className="card-header bg-primary text-white card-top">
           <strong>{strMeal.slice(0, 37)}</strong>
         </div>
         <div className="card-meal">

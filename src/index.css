@@ -24,25 +24,14 @@ code {
 }
 
 .btn-header {
-  border: 1px solid black !important;
+  border: 1px solid rgb(255, 255, 255) !important;
   border-radius: 0.25rem;
-  background: white !important;
   transition: transform 0.5s ease-in-out !important;
-  background-image: linear-gradient(
-    to right,
-    #03dfdc,
-    #84f9f7,
-    #b7fbff
-  ) !important;
+  background: rgb(0, 0, 0) !important;
+  color: white !important;
 }
 .btn-header:hover {
   transform: scale(1.1) !important;
-  background-image: linear-gradient(
-    to left,
-    #03dfdc,
-    #84f9f7,
-    #b7fbff
-  ) !important;
 }
 
 .lead {
@@ -181,6 +170,5 @@ code {
 }
 .img-meal {
   width: 100%;
-  border-radius: 5px;
-  border: 1px solid black;
+  border-radius: 3px;
 }

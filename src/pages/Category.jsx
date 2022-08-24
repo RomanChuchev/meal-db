@@ -7,7 +7,6 @@ import { MealList } from "../components/MealList";
 function Category() {
   const { name } = useParams();
   const [meals, setMeals] = useState([]);
-
   useEffect(() => {
     getFilteredCategory(name).then((data) => {
       setMeals(data.meals);

@@ -8,7 +8,7 @@ function CategoryItem(props) {
       style={{ maxWidth: "20rem" }}
     >
       <Link to={`/category/${strCategory}`} style={{ textDecoration: "none" }}>
-        <div className="card-header">
+        <div className="card-header bg-primary text-white">
           <strong>{strCategory}</strong>
         </div>
         <div className="card-body">
