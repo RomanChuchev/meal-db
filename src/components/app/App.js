@@ -9,7 +9,7 @@ import { Recipe } from "../../pages/Recipe";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/meal-db">
       <div className="app">
         <Header />
         <Routes>
