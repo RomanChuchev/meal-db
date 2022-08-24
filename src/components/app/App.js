@@ -5,6 +5,7 @@ import Header from "../Header";
 import { Home } from "../../pages/Home";
 import Footer from "../Footer";
 import { Category } from "../../pages/Category";
+import { Recipe } from "../../pages/Recipe";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/category/:name" element={<Category />} />
+          <Route path="/meal/:id" element={<Recipe />} />
         </Routes>
         <Footer />
       </div>
