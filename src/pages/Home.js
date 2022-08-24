@@ -8,7 +8,6 @@ function Home() {
 
   useEffect(() => {
     getAllCategories().then((data) => {
-      console.log(data.categories);
       setCatalog(data.categories);
     });
   }, []);

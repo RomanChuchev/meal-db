@@ -172,3 +172,15 @@ code {
 .img-card {
   max-width: 100%;
 }
+
+.card-top {
+  height: 4rem;
+}
+.card-meal {
+  flex: 1 1 auto;
+}
+.img-meal {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
